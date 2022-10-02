@@ -92,28 +92,34 @@
                     </div>
                     <div class="menu__cards">
                         <div class="card">
-                            <div class="card__title">Filter</div>
-                            <li class="card__list-item">Regular (12 oz)<hr class="card__list-divider">$1</li>
-                            <li class="card__list-item">Large (16 oz) <hr class="card__list-divider"> $1.25</li>
-                            <li class="card__list-item">XL (20 oz) <hr class="card__list-divider"> $1.5</li>
-                            <li class="card__list-item">Party-size (24 oz, decaf) <hr class="card__list-divider"> $1.75</li>
-                            <li class="card__list-item">Iced Coffee (16 oz) <hr class="card__list-divider"> $1.25</li>
+                            <h4 class="card__title">Filter</h4>
+                            <ul>
+                                <li class="card__list-item">Regular (12 oz)<hr class="card__list-divider">$1</li>
+                                <li class="card__list-item">Large (16 oz) <hr class="card__list-divider"> $1.25</li>
+                                <li class="card__list-item">XL (20 oz) <hr class="card__list-divider"> $1.5</li>
+                                <li class="card__list-item">Party-size (24 oz, decaf) <hr class="card__list-divider"> $1.75</li>
+                                <li class="card__list-item">Iced Coffee (16 oz) <hr class="card__list-divider"> $1.25</li>
+                            </ul>
                         </div>
                         <div class="card">
                             <div class="card__title">Espresso</div>
-                            <li class="card__list-item">Macchiato <hr class="card__list-divider"> $2.25</li>
-                            <li class="card__list-item">Cortado <hr class="card__list-divider"> $2.5</dliiv>
-                            <li class="card__list-item">Mocha <hr class="card__list-divider"> $3</li>
-                            <li class="card__list-item">Sunrise in the Bay Area (decaf) <hr class="card__list-divider"> $10</li>
+                            <ul>
+                                <li class="card__list-item">Macchiato <hr class="card__list-divider"> $2.25</li>
+                                <li class="card__list-item">Cortado <hr class="card__list-divider"> $2.5</li>
+                                <li class="card__list-item">Mocha <hr class="card__list-divider"> $3</li>
+                                <li class="card__list-item">Sunrise in the Bay Area (decaf) <hr class="card__list-divider"> $10</li>
+                            </ul>
                         </div>
                         <div class="card">
                             <div class="card__title">Baked Goods</div>
-                            <li class="card__list-item">Almond Croissant <hr class="card__list-divider"> $2</li>
-                            <li class="card__list-item">Banana Bread <hr class="card__list-divider"> $1.75</li>
-                            <li class="card__list-item">Key Lime Pie <hr class="card__list-divider"> $3</li>
-                            <li class="card__list-item">Blue Velvet Cake <hr class="card__list-divider"> $3.75</li>
-                            <li class="card__list-item">Web Cookie <hr class="card__list-divider"> $2</li>
-                            <li class="card__list-item">Fresh Bug’uette <hr class="card__list-divider"> $0.25</li>
+                            <ul>
+                                <li class="card__list-item">Almond Croissant <hr class="card__list-divider"> $2</li>
+                                <li class="card__list-item">Banana Bread <hr class="card__list-divider"> $1.75</li>
+                                <li class="card__list-item">Key Lime Pie <hr class="card__list-divider"> $3</li>
+                                <li class="card__list-item">Blue Velvet Cake <hr class="card__list-divider"> $3.75</li>
+                                <li class="card__list-item">Web Cookie <hr class="card__list-divider"> $2</li>
+                                <li class="card__list-item">Fresh Bug’uette <hr class="card__list-divider"> $0.25</li>
+                            </ul>
                         </div>
                     </div>
                 </section>
@@ -166,7 +172,8 @@
                                 class="form__input"
                                 placeholder="Name Surname"
                                 id="name"
-                                required />
+                                required
+                                >
                             </fieldset>
                             <fieldset class="form__fieldset">
                                 <label for="number-of-guests" class="form__label">Number of guests*</label>
@@ -177,15 +184,17 @@
                                 id="number-of-guests"
                                 min="1"
                                 max="8"
-                                required />
+                                required
+                                >
                             </fieldset>
                             <fieldset class="form__fieldset">
-                                <label for="date-time" class="form__label">Date & time*</label>
+                                <label for="datetime" class="form__label">Date & time*</label>
                                 <input 
                                 type="datetime-local" 
                                 class="form__input"
                                 id="datetime" 
-                                required />
+                                required
+                                >
                             </fieldset>    
                             <fieldset class="form__fieldset">
                                 <label for="email" class="form__label">Email*</label>
@@ -194,7 +203,8 @@
                                 class="form__input"
                                 placeholder="email@email.com"
                                 id="email" 
-                                required />
+                                required
+                                >
                             </fieldset>   
                             <fieldset class="form__fieldset">
                                 <button 
@@ -206,7 +216,7 @@
                                 class="form__checkbox"
                                 name="agree-to-t&c"
                                 id="agree-to-t&c"
-                                />
+                                >
                                 <label for="agree-to-t&c" class="form__label">I agree with the term of use</label>
                             </fieldset>
                         </form>
