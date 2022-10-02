@@ -108,6 +108,7 @@
 .header__paragraph_content_hours {
     margin-left: 80px;
     justify-content: flex-start;
+    line-height: 0.3;
 }
 
 .header__paragraph_content_address {
