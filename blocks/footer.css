@@ -1,0 +1,64 @@
+.footer {
+    background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+    padding: 60px 100px 60px 80px;
+}
+  
+  .footer__columns {
+    display: flex;
+    color: white;
+    min-height: 224px;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .footer__column {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer__column_content_social {
+    margin-left: 100px;
+  }
+  
+  .footer__logo {
+    height: 21px;
+    width: 116px;
+  }
+  
+  .footer__list {
+    /* The code below removes the default browser styles for lists */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer__list-item {
+    margin-bottom: 16px;
+  }
+  
+  .footer__column-heading {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  .footer__column-link {
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+  
+  .footer__column-link:hover {
+    color: #c1c1c1;
+  }
+  
+  .footer__social-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+  }
+  
+  .footer__copyright {
+    color: #fff;
+    margin-bottom: auto;
+  }

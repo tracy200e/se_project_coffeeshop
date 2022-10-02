@@ -1,0 +1,68 @@
+.header__title {
+    margin: 252px 0px 28px 80px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    background: transparent;
+}
+
+.header__span-accent {
+    display: block;
+    color: #2F80ED;
+    font-family: 'Noto Serif', Times, sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.header__description {
+    font-family: 'Noto Serif', Times, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0px 0px 80px;
+    max-width: 683px;
+}
+
+.header__background-image {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+.header__image {
+    width: 646px;
+    height: 568px;
+    position: absolute;
+    top: 124px;
+    right: 5px;
+}
+
+.header__paragraphs {
+    bottom: 40px;
+    display: flex;
+    flex: auto 0;
+    min-height: 250px;
+    justify-content: space-between;
+}
+
+.header__paragraph {
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+    align-self: flex-end;
+}
+
+.header__paragraph_content_hours {
+    margin-left: 80px;
+    justify-content: flex-start;
+    line-height: 0.3;
+}
+
+.header__paragraph_content_address {
+    margin-right: 80px;
+    justify-content: flex-end;
+}
