@@ -70,6 +70,7 @@
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0px 0px 80px;
+    max-width: 683px;
 }
 
 .header__background-image {
