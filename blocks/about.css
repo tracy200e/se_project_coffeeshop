@@ -37,6 +37,7 @@
     margin: 19px 0px 73px 0px;
     max-width: 660px;
     width: 100%;
+    row-gap: 20px;
 }
 
 .about__paragraph {

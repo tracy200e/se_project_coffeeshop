@@ -1,5 +1,8 @@
 .recipes {
-    margin-left: 80px;
+    background-image: url("../images/background_recipes.svg");
+    background-color: #FFFFFF;
+    background-size: cover;
+    height: 100vh;
 }
 
 .recipes__title {
