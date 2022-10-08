@@ -3,17 +3,17 @@
     background-color: #FFFFFF;
     background-size: cover;
     height: 100vh;
+    padding-top: 100px;
+    padding-left: 80px;
 }
 
 .recipes__title {
     max-width: 580px;
-    margin-top: 100px;
     margin-bottom: 24px;
     font-family: 'Inter', Arial, sans-serif;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
-    height: 80px;
 }
 
 .recipes__subtitle {
@@ -23,7 +23,6 @@
     font-family: 'Noto Serif', Times, sans-serif;
     font-size: 20px;
     line-height: 30px;
-    height: 80px;
 }
 
 .recipes__videos {

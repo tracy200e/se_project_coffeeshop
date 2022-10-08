@@ -49,6 +49,7 @@
     font-weight: 500;
     font-size: 60px;
     line-height: 72px;
+    z-index: 2;
 }
 
 .header__span-accent {
@@ -58,6 +59,7 @@
     font-style: italic;
     font-size: 60px;
     line-height: 72px;
+    z-index: 2;
 }
 
 .header__description {
@@ -66,6 +68,7 @@
     line-height: 30px;
     margin: 0px 0px 0px 80px;
     max-width: 683px;
+    z-index: 2;
 }
 
 .header__image {
@@ -74,6 +77,7 @@
     position: absolute;
     top: 124px;
     right: 5px;
+    z-index: 1;
 }
 
 .header__paragraphs {
