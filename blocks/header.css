@@ -5,42 +5,7 @@
     height: 100vh;
     min-height: 720px;
     max-height: 800px;
-}
-
-.logo {
-    width: 125px;
-    height: 142px;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-}
-
-.nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.nav__links {
-    list-style: none;
-    padding-left: 0;
-    margin: 30px 80px 0px 0px;
-    display: flex;
-    align-items: center;
-    column-gap: 20px;
-}
-
-.nav__link {
-    color: #000000;
-    text-decoration: none;
-    font-family: 'Inter', Arial, sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.nav__link:hover {
-    color: #2F80ED;
+    position: relative;
 }
 
 .header__title {
@@ -50,6 +15,7 @@
     font-size: 60px;
     line-height: 72px;
     z-index: 2;
+    position: relative;
 }
 
 .header__span-accent {
@@ -60,6 +26,7 @@
     font-size: 60px;
     line-height: 72px;
     z-index: 2;
+    position: relative;
 }
 
 .header__description {
@@ -69,6 +36,7 @@
     margin: 0px 0px 0px 80px;
     max-width: 683px;
     z-index: 2;
+    position: relative;
 }
 
 .header__image {
