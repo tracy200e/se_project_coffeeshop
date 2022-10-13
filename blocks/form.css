@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+.form__fieldset_terms-conditions {
+    flex-direction: row !important;
+    justify-content: center;
+}
+
 .form__label {
     margin-bottom: 8px;
     display: block;
