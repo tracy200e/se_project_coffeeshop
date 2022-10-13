@@ -1,6 +1,9 @@
 .form__fieldset {
-    margin-bottom: 32px;
+    margin: 0 0 32px;
     border: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
 }
 
 .form__label {
@@ -14,7 +17,6 @@
 
 .form__input, .form__button {
     border-radius: 4px;
-    width: 100%;
     border: none;
     height: 60px;
     padding: 0px 15px 0px 15px;
