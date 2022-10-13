@@ -7,7 +7,7 @@
 }
 
 .form__fieldset_terms-conditions {
-    flex-direction: row !important;
+    flex-direction: row;
     justify-content: center;
 }
 
