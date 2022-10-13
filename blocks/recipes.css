@@ -2,8 +2,7 @@
     background-image: url("../images/background_recipes.svg");
     background-color: #FFFFFF;
     background-size: cover;
-    padding-top: 100px;
-    padding-left: 80px;
+    padding: 100px 0px 215px 80px;
 }
 
 .recipes__title {
@@ -29,13 +28,11 @@
     align-items: center;
     justify-content: center;
     gap: 40px;
-    margin-bottom: 215px;
 }
 
 .recipes__iframe {
     display: flex;
     flex-direction: column;
-    z-index: 4;
 }
 
 .recipes__video-caption {
@@ -46,10 +43,6 @@
     margin: 24px 0px 0px 0px;
     display: flex;
     justify-content: space-between;
-}
-
-.recipes__title, .recipes__subtitle, .recipes__videos, .recipes__video-caption {
-    z-index: 3;
 }
 
 iframe {
