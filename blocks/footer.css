@@ -6,7 +6,6 @@
   .footer__columns {
     display: flex;
     color: white;
-    min-height: 224px;
     align-items: flex-start;
     justify-content: space-between;
   }
@@ -14,10 +13,6 @@
   .footer__column {
     margin: 0;
     padding: 0;
-  }
-  
-  .footer__column_content_social {
-    margin-left: 100px;
   }
   
   .footer__logo {
@@ -36,6 +31,10 @@
     margin-bottom: 16px;
   }
   
+  .footer__list-item:last-child {
+    margin-bottom: 0;
+  }
+
   .footer__column-heading {
     margin: auto;
     margin-bottom: 20px;
@@ -60,5 +59,6 @@
   
   .footer__copyright {
     color: #fff;
-    margin-bottom: auto;
+    margin-top: 108px;
+    margin-bottom: 60px;
   }

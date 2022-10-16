@@ -18,8 +18,8 @@
     max-width: 251px;
     width: 100%;
     z-index: 2;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .about__circle {
@@ -34,6 +34,8 @@
   }
 
 .about__content {
+    display: flex;
+    flex-direction: column;
     margin: 19px 0px 73px 0px;
     max-width: 660px;
     width: 100%;
@@ -41,9 +43,8 @@
 }
 
 .about__paragraph {
-    font-family: 'Noto Serif', Times, sans-serif;
+    font-family: 'Noto Serif', 'Times New Roman', sans-serif;
     font-size: 20px;
-    line-height: 30px;
     color: #FFFFFF;
 }
 
@@ -55,13 +56,11 @@
         opacity: 0.6;
     }
     100% {
+        opacity: 0;
         transform: scale(1.15);
     }
 }
 
 .about__circle_animation_blurred {
-    animation-name: pulsate;
-    animation-duration: 1.3s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+    animation: pulsate 1.3s ease-in-out 0s infinite;
 }

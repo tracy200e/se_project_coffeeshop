@@ -6,10 +6,12 @@
     min-height: 720px;
     max-height: 800px;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .header__title {
-    margin: 252px 0px 28px 80px;
+    margin: 202px 0px 28px 80px;
     font-family: 'Inter', Arial, sans-serif;
     font-weight: 500;
     font-size: 60px;
@@ -21,7 +23,7 @@
 .header__span-accent {
     display: block;
     color: #2F80ED;
-    font-family: 'Noto Serif', Times, sans-serif;
+    font-family: 'Noto Serif', 'Times New Roman', sans-serif;
     font-style: italic;
     font-size: 60px;
     line-height: 72px;
@@ -30,7 +32,7 @@
 }
 
 .header__description {
-    font-family: 'Noto Serif', Times, sans-serif;
+    font-family: 'Noto Serif', 'Times New Roman', sans-serif;
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0px 0px 80px;
@@ -49,11 +51,13 @@
 }
 
 .header__paragraphs {
-    bottom: 40px;
     display: flex;
     flex: auto 0;
-    min-height: 250px;
     justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: auto;
+    color: #808080;
+    z-index: 1;
 }
 
 .header__paragraph {
@@ -61,7 +65,6 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    margin-bottom: 40px;
     align-self: flex-end;
 }
 
