@@ -54,9 +54,8 @@
     display: flex;
     flex: auto 0;
     justify-content: space-between;
-    margin-bottom: 40px;
-    margin-top: auto;
-    color: #808080;
+    margin: auto 80px 40px 80px;
+    color: #6f6f6f;
     z-index: 1;
 }
 
@@ -69,12 +68,11 @@
 }
 
 .header__paragraph_content_hours {
-    margin-left: 80px;
     justify-content: flex-start;
-    line-height: 0.3;
+    list-style: none;
+    padding-left: 0;
 }
 
-.header__paragraph_content_address {
-    margin-right: 80px;
-    justify-content: flex-end;
+.header__hours {
+    margin-bottom: 0;
 }
