@@ -65,6 +65,8 @@
     font-size: 16px;
     line-height: 20px;
     align-self: flex-end;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .header__paragraph_content_hours {
@@ -73,6 +75,7 @@
     padding-left: 0;
 }
 
-.header__hours {
+.header__address {
+    margin-top: 0;
     margin-bottom: 0;
 }

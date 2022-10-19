@@ -29,6 +29,8 @@
 
 .card__list {
     padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .card__list-divider {
