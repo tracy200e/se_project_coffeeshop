@@ -46,6 +46,8 @@
     font-family: 'Noto Serif', 'Times New Roman', sans-serif;
     font-size: 20px;
     color: #FFFFFF;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 @keyframes pulsate {
