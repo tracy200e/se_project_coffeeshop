@@ -45,7 +45,7 @@
     justify-content: space-between;
 }
 
-.recipes__iframe-video {
+.recipes__video {
     border: 0;
     width: 480px;
     height: 273px;
